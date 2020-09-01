@@ -1,0 +1,207 @@
+body{
+	background-color: blue;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+}
+.maincontainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.leftcontainer{
+	border: 2px none;
+	width: 28%;
+	margin-left: 3%;
+	margin-top: 5%;
+	text-align: center;
+	color: white;
+}
+.leftcontainer img{
+	width: 100%;
+	border: 1px none;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	/*background-color: blue;*/
+	/*animation: mover 5s infinite  alternate;*/
+	/*height: 20px;*/
+}
+.container{
+	width: 60%;
+	border: 2px none;
+	background-color: white;
+	border-top-left-radius: 130px;
+	border-bottom-left-radius: 130px;
+	margin-left: 7%;
+	margin-top: 3%;
+	/*margin: 3% 0% 3% 30%;*/
+	/*padding-top: 10%;*/
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;*/
+}
+.container h1{
+	color: blue;
+	margin-left: 15%;
+	padding-top: 4%;
+}
+.container .tab3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.container .tab3 .tab1{
+	margin-left: 10%;
+	width: 40%
+}
+.container .tab3 .tab2{
+	margin-left:10%;
+	width: 40%;
+}
+.container .tab3 .tab1 div{
+	background-color: white;
+	border: 1px solid;
+	border-radius: 20px;
+	padding: 2%;
+	margin: 8%;
+	
+}
+.container .tab3 .tab2 div{
+	background-color: white;
+	border: 1px solid;
+	border-radius: 20px;
+	padding: 2%;
+	margin: 8%;
+}
+.container .tab3 .tab1 div input{
+	width: 90%;
+	border: 1px none;
+}
+.container .tab3 .tab2 div input{
+	width: 90%;
+	border: 1px none;
+}
+.container .tab3 .tab2 div select{
+	width: 90%;
+	border: 1px none;
+}
+.container .tab3 .tab1 div input:focus{
+	outline: none;
+}
+.container .tab3 .tab2 div input:focus{
+	outline: none;
+}
+.container .tab3 .tab2 div select{
+	outline: none;
+}
+.container .box{
+	margin-left: 15%;
+	margin-bottom: 2%;
+}
+.container .but{
+	border: 2px none;
+	border-radius: 20px;
+	width: 23%;
+	background-color: green;
+	color: white;
+	margin-top: 2%;
+	margin-left: 75%;
+	margin-bottom: 2%;
+	padding: 1.5%;
+	cursor: pointer;
+}
+.container .but:focus{
+	outline: none;
+}
+
+@media only screen and (min-width:  280px) and (max-width: 767px){
+
+	.maincontainer{
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.container{
+		width: 93%;
+
+	
+	
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	margin-left: 2%;
+	margin-top: 3%;
+	}
+	.container .tab3{
+		flex-direction: column;
+	}
+	.container .tab3 .tab1{
+		margin-left: 4%;
+		width: 95%;
+
+	}
+	.container .tab3 .tab2{
+		margin-left: 4%;
+		width: 95%;
+	}
+	.leftcontainer{
+		width: 80%;
+		/*text-align: center;*/
+	}
+	.leftcontainer img{
+		margin-left: 8%;
+		/*justify-content: space-around;*/
+	}
+	.container .but{
+		width: 35%;
+		margin-left: 50%;
+
+	}
+
+
+}
+@media only screen and (min-width:  768px) and (max-width: 1024px){
+	.maincontainer{
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.container{
+		width: 93%;
+
+	
+	
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	margin-left: 2%;
+	margin-top: 3%;
+	}
+	.container .tab3{
+		flex-direction: column;
+	}
+	.container .tab3 .tab1{
+		margin-left: 4%;
+		width: 95%;
+
+	}
+	.container .tab3 .tab2{
+		margin-left: 4%;
+		width: 95%;
+	}
+	.leftcontainer{
+		width: 80%;
+		/*text-align: center;*/
+	}
+	.leftcontainer img{
+		margin-left: 8%;
+		/*justify-content: space-around;*/
+	}
+	.container .but{
+		width: 35%;
+		margin-left: 50%;
+
+	}
+	
+	
+}
